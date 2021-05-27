@@ -1,0 +1,9 @@
+name: schizo_eeg
+channels:
+  - defaults
+  - fastchan
+dependencies:
+  - fastbook
+  - cudatoolkit==10.1
+  - jupyterlab
+  - bokeh
