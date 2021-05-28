@@ -4,6 +4,7 @@ channels:
   - fastchan
   - fastai
 dependencies:
+  - python==3.8
   - fastbook
   - jupyterlab
   - bokeh
