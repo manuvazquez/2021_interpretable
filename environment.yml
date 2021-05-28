@@ -4,6 +4,5 @@ channels:
   - fastchan
 dependencies:
   - fastbook
-  - cudatoolkit==10.1
   - jupyterlab
   - bokeh
