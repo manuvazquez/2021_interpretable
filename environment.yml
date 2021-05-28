@@ -2,6 +2,7 @@ name: schizo_eeg
 channels:
   - defaults
   - fastchan
+  - fastai
 dependencies:
   - fastbook
   - jupyterlab

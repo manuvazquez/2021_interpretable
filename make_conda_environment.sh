@@ -11,7 +11,7 @@ NAME=schizo_eeg
 source $HOME/anaconda3/etc/profile.d/conda.sh
 # source $HOME/gts/anaconda3/etc/profile.d/conda.sh # arvak, hidra*...
 
-$MANAGER create --yes -n $NAME fastbook cudatoolkit=10.1 jupyterlab bokeh -c defaults -c conda-forge -c fastchan -c pytorch
+$MANAGER create --yes -n $NAME fastbook cudatoolkit=10.1 jupyterlab bokeh -c defaults -c conda-forge -c fastchan -c fastai -c pytorch
 
 conda activate $NAME
 
