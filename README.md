@@ -8,9 +8,9 @@ Source code to reproduce the results in the paper:
 
 The repository encompasses two [jupyter](https://jupyter.org/) notebooks:
 
-- `exploratory.ipynb`: as the name suggests, this was used to do some *exploratory data analysis*, mainly focused on visually comparing samples from patients and controls. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/manuvazquez/2021_interpretable/HEAD?filepath=exploratory.ipynb)
+- `exploratory.ipynb`: as the name suggests, this was used to do some *exploratory data analysis*, mainly focused on visually comparing samples from patients and controls. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/manuvazquez/2021_interpretable/HEAD?filepath=exploratory.ipynb)  [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manuvazquez/2021_interpretable/blob/main/exploratory.ipynb)
 
-- `random forests.ipynb`: this contains the experiments whose results are shown in the paper. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/manuvazquez/2021_interpretable/HEAD?filepath=random%20forests.ipynb)
+- `random forests.ipynb`: this contains the experiments whose results are shown in the paper. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/manuvazquez/2021_interpretable/HEAD?filepath=random%20forests.ipynb) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manuvazquez/2021_interpretable/blob/main/random%20forests.ipynb)
 
 Additionally, *pre-processed* data (in [MATLAB](https://www.mathworks.com/) format) can be found in the `preprocessed_data` directory, and the [bash](https://www.gnu.org/software/bash/) script `make_conda_environment.sh` can be used (at least in Linux) to install a working [Anaconda](https://anaconda.org/) environment.
 
